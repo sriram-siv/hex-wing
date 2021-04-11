@@ -18,7 +18,9 @@ public class GridCell : MonoBehaviour
   GridMap grid;
 
   enum Colors {
-    clear, active, neighbour
+    clear, 
+    active, 
+    neighbour
   }
 
   public void Initialise(int _x, int _y, GridMap _grid) {
